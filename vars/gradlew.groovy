@@ -1,6 +1,5 @@
 #!/usr/bin/groovy
 
-def call(String... tasks) {
-    String tasksAsString = tasks.join(' ')
-    sh "./gradlew $tasksAsString"
+def call(String tasks) {
+    sh "./gradlew $tasks"
 }
