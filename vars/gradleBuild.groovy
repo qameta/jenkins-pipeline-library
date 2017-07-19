@@ -1,7 +1,7 @@
 #!/usr/bin/groovy
 
 /**
- * invoke gradle tasks, like "gradle 'clean build'"
+ * invoke gradle tasks, like "gradleBuild 'clean build'"
  * @param tasks gradle tasks as string
  */
 def call(body) {
